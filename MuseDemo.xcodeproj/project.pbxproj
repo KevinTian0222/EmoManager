@@ -7,50 +7,67 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2FB18D2C20FC697A002CD281 /* DynamicTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FB18D2B20FC697A002CD281 /* DynamicTableVC.m */; };
+		2FB18D2F20FC7735002CD281 /* SessionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FB18D2E20FC7735002CD281 /* SessionVC.m */; };
+		2FB18D3220FC7749002CD281 /* SettingsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FB18D3120FC7749002CD281 /* SettingsVC.m */; };
+		2FB18D3520FD8772002CD281 /* NoteVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FB18D3420FD8772002CD281 /* NoteVC.m */; };
+		2FB18D3820FD8786002CD281 /* CoursesVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FB18D3720FD8786002CD281 /* CoursesVC.m */; };
+		2FB18D3B20FD88AA002CD281 /* EditVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FB18D3A20FD88AA002CD281 /* EditVC.m */; };
+		2FB18D542105C5A8002CD281 /* HeartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FB18D522105C5A7002CD281 /* HeartView.m */; };
+		2FB18D572105C5F9002CD281 /* ConnectVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FB18D562105C5F9002CD281 /* ConnectVC.m */; };
+		2FB18D592105C640002CD281 /* Muse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FB18D582105C640002CD281 /* Muse.framework */; };
+		2FB18D5C2105CB56002CD281 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FB18D5B2105CB56002CD281 /* libc++.tbd */; };
+		2FB18D5F2105E095002CD281 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FB18D5D2105E095002CD281 /* MBProgressHUD.m */; };
+		2FB18D622105F3BA002CD281 /* UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FB18D612105F3BA002CD281 /* UserModel.m */; };
+		2FB18D6B2109B39F002CD281 /* wind.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2FB18D672109B39A002CD281 /* wind.mp3 */; };
+		2FB18D6C2109B39F002CD281 /* fire.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2FB18D682109B39B002CD281 /* fire.mp3 */; };
+		2FB18D6D2109B39F002CD281 /* rain.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2FB18D692109B39C002CD281 /* rain.mp3 */; };
+		2FB18D6E2109B39F002CD281 /* wave.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2FB18D6A2109B39E002CD281 /* wave.mp3 */; };
 		2FE8BDCD20E0897C00ECF8BA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE8BDCC20E0897C00ECF8BA /* AppDelegate.m */; };
-		2FE8BDD020E0897C00ECF8BA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE8BDCF20E0897C00ECF8BA /* ViewController.m */; };
+		2FE8BDD020E0897C00ECF8BA /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE8BDCF20E0897C00ECF8BA /* MainViewController.m */; };
 		2FE8BDD320E0897C00ECF8BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FE8BDD120E0897C00ECF8BA /* Main.storyboard */; };
 		2FE8BDD520E0897F00ECF8BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FE8BDD420E0897F00ECF8BA /* Assets.xcassets */; };
 		2FE8BDD820E0897F00ECF8BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FE8BDD620E0897F00ECF8BA /* LaunchScreen.storyboard */; };
 		2FE8BDDB20E0897F00ECF8BA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE8BDDA20E0897F00ECF8BA /* main.m */; };
-		2FE8BDE520E0897F00ECF8BA /* MuseDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE8BDE420E0897F00ECF8BA /* MuseDemoTests.m */; };
-		2FE8BDF020E0897F00ECF8BA /* MuseDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE8BDEF20E0897F00ECF8BA /* MuseDemoUITests.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		2FE8BDE120E0897F00ECF8BA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2FE8BDC020E0897C00ECF8BA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2FE8BDC720E0897C00ECF8BA;
-			remoteInfo = MuseDemo;
-		};
-		2FE8BDEC20E0897F00ECF8BA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2FE8BDC020E0897C00ECF8BA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2FE8BDC720E0897C00ECF8BA;
-			remoteInfo = MuseDemo;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		2FB18D2A20FC697A002CD281 /* DynamicTableVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DynamicTableVC.h; sourceTree = "<group>"; };
+		2FB18D2B20FC697A002CD281 /* DynamicTableVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DynamicTableVC.m; sourceTree = "<group>"; };
+		2FB18D2D20FC7735002CD281 /* SessionVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SessionVC.h; sourceTree = "<group>"; };
+		2FB18D2E20FC7735002CD281 /* SessionVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SessionVC.m; sourceTree = "<group>"; };
+		2FB18D3020FC7749002CD281 /* SettingsVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingsVC.h; sourceTree = "<group>"; };
+		2FB18D3120FC7749002CD281 /* SettingsVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingsVC.m; sourceTree = "<group>"; };
+		2FB18D3320FD8771002CD281 /* NoteVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NoteVC.h; sourceTree = "<group>"; };
+		2FB18D3420FD8772002CD281 /* NoteVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NoteVC.m; sourceTree = "<group>"; };
+		2FB18D3620FD8786002CD281 /* CoursesVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoursesVC.h; sourceTree = "<group>"; };
+		2FB18D3720FD8786002CD281 /* CoursesVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoursesVC.m; sourceTree = "<group>"; };
+		2FB18D3920FD88AA002CD281 /* EditVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EditVC.h; sourceTree = "<group>"; };
+		2FB18D3A20FD88AA002CD281 /* EditVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EditVC.m; sourceTree = "<group>"; };
+		2FB18D522105C5A7002CD281 /* HeartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeartView.m; sourceTree = "<group>"; };
+		2FB18D532105C5A7002CD281 /* HeartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeartView.h; sourceTree = "<group>"; };
+		2FB18D552105C5F9002CD281 /* ConnectVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConnectVC.h; sourceTree = "<group>"; };
+		2FB18D562105C5F9002CD281 /* ConnectVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConnectVC.m; sourceTree = "<group>"; };
+		2FB18D582105C640002CD281 /* Muse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Muse.framework; sourceTree = "<group>"; };
+		2FB18D5B2105CB56002CD281 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		2FB18D5D2105E095002CD281 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		2FB18D5E2105E095002CD281 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		2FB18D602105F3BA002CD281 /* UserModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserModel.h; sourceTree = "<group>"; };
+		2FB18D612105F3BA002CD281 /* UserModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserModel.m; sourceTree = "<group>"; };
+		2FB18D672109B39A002CD281 /* wind.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = wind.mp3; sourceTree = "<group>"; };
+		2FB18D682109B39B002CD281 /* fire.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fire.mp3; sourceTree = "<group>"; };
+		2FB18D692109B39C002CD281 /* rain.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = rain.mp3; sourceTree = "<group>"; };
+		2FB18D6A2109B39E002CD281 /* wave.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = wave.mp3; sourceTree = "<group>"; };
 		2FE8BDC820E0897C00ECF8BA /* MuseDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MuseDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FE8BDCB20E0897C00ECF8BA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2FE8BDCC20E0897C00ECF8BA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2FE8BDCE20E0897C00ECF8BA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2FE8BDCF20E0897C00ECF8BA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2FE8BDCE20E0897C00ECF8BA /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		2FE8BDCF20E0897C00ECF8BA /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		2FE8BDD220E0897C00ECF8BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2FE8BDD420E0897F00ECF8BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2FE8BDD720E0897F00ECF8BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2FE8BDD920E0897F00ECF8BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2FE8BDDA20E0897F00ECF8BA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2FE8BDE020E0897F00ECF8BA /* MuseDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MuseDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2FE8BDE420E0897F00ECF8BA /* MuseDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MuseDemoTests.m; sourceTree = "<group>"; };
-		2FE8BDE620E0897F00ECF8BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2FE8BDEB20E0897F00ECF8BA /* MuseDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MuseDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2FE8BDEF20E0897F00ECF8BA /* MuseDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MuseDemoUITests.m; sourceTree = "<group>"; };
-		2FE8BDF120E0897F00ECF8BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,33 +75,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2FE8BDDD20E0897F00ECF8BA /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2FE8BDE820E0897F00ECF8BA /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				2FB18D5C2105CB56002CD281 /* libc++.tbd in Frameworks */,
+				2FB18D592105C640002CD281 /* Muse.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2FB18D5A2105CB54002CD281 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2FB18D5B2105CB56002CD281 /* libc++.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		2FE8BDBF20E0897C00ECF8BA = {
 			isa = PBXGroup;
 			children = (
+				2FB18D582105C640002CD281 /* Muse.framework */,
 				2FE8BDCA20E0897C00ECF8BA /* MuseDemo */,
-				2FE8BDE320E0897F00ECF8BA /* MuseDemoTests */,
-				2FE8BDEE20E0897F00ECF8BA /* MuseDemoUITests */,
 				2FE8BDC920E0897C00ECF8BA /* Products */,
+				2FB18D5A2105CB54002CD281 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -92,8 +105,6 @@
 			isa = PBXGroup;
 			children = (
 				2FE8BDC820E0897C00ECF8BA /* MuseDemo.app */,
-				2FE8BDE020E0897F00ECF8BA /* MuseDemoTests.xctest */,
-				2FE8BDEB20E0897F00ECF8BA /* MuseDemoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -103,33 +114,39 @@
 			children = (
 				2FE8BDCB20E0897C00ECF8BA /* AppDelegate.h */,
 				2FE8BDCC20E0897C00ECF8BA /* AppDelegate.m */,
-				2FE8BDCE20E0897C00ECF8BA /* ViewController.h */,
-				2FE8BDCF20E0897C00ECF8BA /* ViewController.m */,
+				2FB18D2D20FC7735002CD281 /* SessionVC.h */,
+				2FB18D2E20FC7735002CD281 /* SessionVC.m */,
+				2FB18D3020FC7749002CD281 /* SettingsVC.h */,
+				2FB18D3120FC7749002CD281 /* SettingsVC.m */,
+				2FB18D3320FD8771002CD281 /* NoteVC.h */,
+				2FB18D3420FD8772002CD281 /* NoteVC.m */,
+				2FB18D3620FD8786002CD281 /* CoursesVC.h */,
+				2FB18D3720FD8786002CD281 /* CoursesVC.m */,
+				2FB18D532105C5A7002CD281 /* HeartView.h */,
+				2FB18D522105C5A7002CD281 /* HeartView.m */,
+				2FB18D552105C5F9002CD281 /* ConnectVC.h */,
+				2FB18D562105C5F9002CD281 /* ConnectVC.m */,
+				2FB18D3920FD88AA002CD281 /* EditVC.h */,
+				2FB18D3A20FD88AA002CD281 /* EditVC.m */,
+				2FE8BDCE20E0897C00ECF8BA /* MainViewController.h */,
+				2FE8BDCF20E0897C00ECF8BA /* MainViewController.m */,
+				2FB18D2A20FC697A002CD281 /* DynamicTableVC.h */,
+				2FB18D2B20FC697A002CD281 /* DynamicTableVC.m */,
+				2FB18D5E2105E095002CD281 /* MBProgressHUD.h */,
+				2FB18D5D2105E095002CD281 /* MBProgressHUD.m */,
 				2FE8BDD120E0897C00ECF8BA /* Main.storyboard */,
 				2FE8BDD420E0897F00ECF8BA /* Assets.xcassets */,
 				2FE8BDD620E0897F00ECF8BA /* LaunchScreen.storyboard */,
 				2FE8BDD920E0897F00ECF8BA /* Info.plist */,
 				2FE8BDDA20E0897F00ECF8BA /* main.m */,
+				2FB18D602105F3BA002CD281 /* UserModel.h */,
+				2FB18D612105F3BA002CD281 /* UserModel.m */,
+				2FB18D682109B39B002CD281 /* fire.mp3 */,
+				2FB18D692109B39C002CD281 /* rain.mp3 */,
+				2FB18D6A2109B39E002CD281 /* wave.mp3 */,
+				2FB18D672109B39A002CD281 /* wind.mp3 */,
 			);
 			path = MuseDemo;
-			sourceTree = "<group>";
-		};
-		2FE8BDE320E0897F00ECF8BA /* MuseDemoTests */ = {
-			isa = PBXGroup;
-			children = (
-				2FE8BDE420E0897F00ECF8BA /* MuseDemoTests.m */,
-				2FE8BDE620E0897F00ECF8BA /* Info.plist */,
-			);
-			path = MuseDemoTests;
-			sourceTree = "<group>";
-		};
-		2FE8BDEE20E0897F00ECF8BA /* MuseDemoUITests */ = {
-			isa = PBXGroup;
-			children = (
-				2FE8BDEF20E0897F00ECF8BA /* MuseDemoUITests.m */,
-				2FE8BDF120E0897F00ECF8BA /* Info.plist */,
-			);
-			path = MuseDemoUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,42 +169,6 @@
 			productReference = 2FE8BDC820E0897C00ECF8BA /* MuseDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2FE8BDDF20E0897F00ECF8BA /* MuseDemoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2FE8BDF720E0897F00ECF8BA /* Build configuration list for PBXNativeTarget "MuseDemoTests" */;
-			buildPhases = (
-				2FE8BDDC20E0897F00ECF8BA /* Sources */,
-				2FE8BDDD20E0897F00ECF8BA /* Frameworks */,
-				2FE8BDDE20E0897F00ECF8BA /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				2FE8BDE220E0897F00ECF8BA /* PBXTargetDependency */,
-			);
-			name = MuseDemoTests;
-			productName = MuseDemoTests;
-			productReference = 2FE8BDE020E0897F00ECF8BA /* MuseDemoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		2FE8BDEA20E0897F00ECF8BA /* MuseDemoUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2FE8BDFA20E0897F00ECF8BA /* Build configuration list for PBXNativeTarget "MuseDemoUITests" */;
-			buildPhases = (
-				2FE8BDE720E0897F00ECF8BA /* Sources */,
-				2FE8BDE820E0897F00ECF8BA /* Frameworks */,
-				2FE8BDE920E0897F00ECF8BA /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				2FE8BDED20E0897F00ECF8BA /* PBXTargetDependency */,
-			);
-			name = MuseDemoUITests;
-			productName = MuseDemoUITests;
-			productReference = 2FE8BDEB20E0897F00ECF8BA /* MuseDemoUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -199,14 +180,6 @@
 				TargetAttributes = {
 					2FE8BDC720E0897C00ECF8BA = {
 						CreatedOnToolsVersion = 9.4.1;
-					};
-					2FE8BDDF20E0897F00ECF8BA = {
-						CreatedOnToolsVersion = 9.4.1;
-						TestTargetID = 2FE8BDC720E0897C00ECF8BA;
-					};
-					2FE8BDEA20E0897F00ECF8BA = {
-						CreatedOnToolsVersion = 9.4.1;
-						TestTargetID = 2FE8BDC720E0897C00ECF8BA;
 					};
 				};
 			};
@@ -224,8 +197,6 @@
 			projectRoot = "";
 			targets = (
 				2FE8BDC720E0897C00ECF8BA /* MuseDemo */,
-				2FE8BDDF20E0897F00ECF8BA /* MuseDemoTests */,
-				2FE8BDEA20E0897F00ECF8BA /* MuseDemoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -235,23 +206,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FB18D6B2109B39F002CD281 /* wind.mp3 in Resources */,
+				2FB18D6C2109B39F002CD281 /* fire.mp3 in Resources */,
+				2FB18D6D2109B39F002CD281 /* rain.mp3 in Resources */,
 				2FE8BDD820E0897F00ECF8BA /* LaunchScreen.storyboard in Resources */,
 				2FE8BDD520E0897F00ECF8BA /* Assets.xcassets in Resources */,
 				2FE8BDD320E0897C00ECF8BA /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2FE8BDDE20E0897F00ECF8BA /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2FE8BDE920E0897F00ECF8BA /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				2FB18D6E2109B39F002CD281 /* wave.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,42 +223,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2FE8BDD020E0897C00ECF8BA /* ViewController.m in Sources */,
+				2FB18D3520FD8772002CD281 /* NoteVC.m in Sources */,
+				2FE8BDD020E0897C00ECF8BA /* MainViewController.m in Sources */,
+				2FB18D572105C5F9002CD281 /* ConnectVC.m in Sources */,
+				2FB18D2C20FC697A002CD281 /* DynamicTableVC.m in Sources */,
+				2FB18D542105C5A8002CD281 /* HeartView.m in Sources */,
+				2FB18D3B20FD88AA002CD281 /* EditVC.m in Sources */,
+				2FB18D3820FD8786002CD281 /* CoursesVC.m in Sources */,
+				2FB18D5F2105E095002CD281 /* MBProgressHUD.m in Sources */,
+				2FB18D622105F3BA002CD281 /* UserModel.m in Sources */,
 				2FE8BDDB20E0897F00ECF8BA /* main.m in Sources */,
 				2FE8BDCD20E0897C00ECF8BA /* AppDelegate.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2FE8BDDC20E0897F00ECF8BA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2FE8BDE520E0897F00ECF8BA /* MuseDemoTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2FE8BDE720E0897F00ECF8BA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2FE8BDF020E0897F00ECF8BA /* MuseDemoUITests.m in Sources */,
+				2FB18D2F20FC7735002CD281 /* SessionVC.m in Sources */,
+				2FB18D3220FC7749002CD281 /* SettingsVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		2FE8BDE220E0897F00ECF8BA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 2FE8BDC720E0897C00ECF8BA /* MuseDemo */;
-			targetProxy = 2FE8BDE120E0897F00ECF8BA /* PBXContainerItemProxy */;
-		};
-		2FE8BDED20E0897F00ECF8BA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 2FE8BDC720E0897C00ECF8BA /* MuseDemo */;
-			targetProxy = 2FE8BDEC20E0897F00ECF8BA /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		2FE8BDD120E0897C00ECF8BA /* Main.storyboard */ = {
@@ -433,16 +375,25 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 87D3K8565J;
+				DEVELOPMENT_TEAM = G9X2A6ME8H;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = MuseDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mercedes.MuseDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevintian.MuseDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -450,90 +401,25 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 87D3K8565J;
+				DEVELOPMENT_TEAM = G9X2A6ME8H;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = MuseDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mercedes.MuseDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevintian.MuseDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		2FE8BDF820E0897F00ECF8BA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 87D3K8565J;
-				INFOPLIST_FILE = MuseDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mercedes.MuseDemoTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MuseDemo.app/MuseDemo";
-			};
-			name = Debug;
-		};
-		2FE8BDF920E0897F00ECF8BA /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 87D3K8565J;
-				INFOPLIST_FILE = MuseDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mercedes.MuseDemoTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MuseDemo.app/MuseDemo";
-			};
-			name = Release;
-		};
-		2FE8BDFB20E0897F00ECF8BA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 87D3K8565J;
-				INFOPLIST_FILE = MuseDemoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mercedes.MuseDemoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = MuseDemo;
-			};
-			name = Debug;
-		};
-		2FE8BDFC20E0897F00ECF8BA /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 87D3K8565J;
-				INFOPLIST_FILE = MuseDemoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mercedes.MuseDemoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = MuseDemo;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -554,24 +440,6 @@
 			buildConfigurations = (
 				2FE8BDF520E0897F00ECF8BA /* Debug */,
 				2FE8BDF620E0897F00ECF8BA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		2FE8BDF720E0897F00ECF8BA /* Build configuration list for PBXNativeTarget "MuseDemoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2FE8BDF820E0897F00ECF8BA /* Debug */,
-				2FE8BDF920E0897F00ECF8BA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		2FE8BDFA20E0897F00ECF8BA /* Build configuration list for PBXNativeTarget "MuseDemoUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2FE8BDFB20E0897F00ECF8BA /* Debug */,
-				2FE8BDFC20E0897F00ECF8BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
